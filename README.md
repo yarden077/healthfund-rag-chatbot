@@ -1,10 +1,10 @@
 # healthfund-rag-chatbot
-Microservice-based multilingual chatbot for Israeli health fund medical services (Maccabi, Meuhedet, Clalit) using Azure OpenAI, RAG, Pinecone, and Streamlit.
+Microservice-based multilingual chatbot for Israeli health fund medical services (Maccabi, Meuhedet, Clalit) using Azure OpenAI, Pinecone, and Streamlit.
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
-This project is a stateless, microservice-based chatbot system for answering user questions about Israeli health fund ("קופת חולים") medical services.
+This project is a stateless, microservice-based chatbot system for answering user questions about Israeli health fund medical services.
 It supports **user identity verification**, advanced natural language Q&A, and retrieves answers from a knowledge base of real medical service documents (HTML files) using RAG (Retrieval-Augmented Generation).
 
 **Key Features:**
@@ -70,8 +70,6 @@ It supports **user identity verification**, advanced natural language Q&A, and r
 ```bash
 git clone https://github.com/yarden077/healthfund-rag-chatbot.git
 cd healthfund-rag-chatbot
-python -m venv venv
-source venv/bin/activate
 pip install -r requirements.txt
 ```
 
