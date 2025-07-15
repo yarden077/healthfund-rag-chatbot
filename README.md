@@ -84,11 +84,8 @@ PINECONE_ENVIRONMENT=your-pinecone-env
 PINECONE_INDEX=your-pinecone-index
 ```
 
-
 ### Run
-1. ```bash
+```bash
 uvicorn server:app --reload
-```
-2. ```bash
 streamlit run app.py
 ```
