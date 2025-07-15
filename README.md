@@ -52,6 +52,7 @@ It supports **user identity verification**, advanced natural language Q&A, and r
 ---
 
 ##  Project Structure
+```bash
 ├── app.py                # Streamlit frontend (UI)
 ├── server.py             # FastAPI backend (chat + RAG)
 ├── parse_html.py         # HTML parsing and data prep
@@ -60,7 +61,7 @@ It supports **user identity verification**, advanced natural language Q&A, and r
 ├── requirements.txt      # All Python deps (see below)
 ├── .env                  # (not committed) Azure/Pinecone secrets
 └── README.md
-
+```
 ---
 
 ##  Setup Instructions
