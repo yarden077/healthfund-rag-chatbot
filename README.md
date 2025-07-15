@@ -75,18 +75,20 @@ pip install -r requirements.txt
 ```
 
 ### 2. Environment Variables
-
+```bash
 AZURE_OPENAI_KEY1=your-azure-openai-key
 AZURE_OPENAI_ENDPOINT=your-azure-endpoint
 AZURE_OPENAI_EMBEDDINGS_DEPLOYMENT=your-embeddings-deployment-name
 PINECONE_API_KEY=your-pinecone-key
 PINECONE_ENVIRONMENT=your-pinecone-env
 PINECONE_INDEX=your-pinecone-index
+```
+
 
 ### Run
-1. ```
+1. ```bash
 uvicorn server:app --reload
 ```
-2. ```
+2. ```bash
 streamlit run app.py
 ```
