@@ -59,7 +59,7 @@ It supports **user identity verification**, advanced natural language Q&A, and r
 ├── upload_to_pinecone.py # Script to embed & upload KB to Pinecone
 ├── phase2_data/          # Folder with health fund HTML files (the KB)
 ├── requirements.txt      # All Python deps (see below)
-├── .env                  # (not committed) Azure/Pinecone secrets
+├── .env                  # (not committed) Azure/Pinecone api keys
 └── README.md
 ```
 ---
