@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+openai
+python-dotenv
+pinecone
+streamlit
+requests
+beautifulsoup4
+tqdm
