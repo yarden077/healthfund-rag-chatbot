@@ -52,7 +52,7 @@ It supports **user identity verification**, advanced natural language Q&A, and r
 ---
 
 ##  Project Structure
-```bash
+```
 ├── app.py                # Streamlit frontend (UI)
 ├── server.py             # FastAPI backend (chat + RAG)
 ├── parse_html.py         # HTML parsing and data prep
@@ -84,9 +84,9 @@ PINECONE_ENVIRONMENT=your-pinecone-env
 PINECONE_INDEX=your-pinecone-index
 
 ### Run
-1. ```bash
+1. ```
 uvicorn server:app --reload
 ```
-2. ```bash
+2. ```
 streamlit run app.py
 ```
